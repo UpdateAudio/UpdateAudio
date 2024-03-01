@@ -34,8 +34,6 @@
     function handleDownloadButtonClick(buttonElement, downloadLinkContainer, fileUrl, fileName) {
         startCountdown(buttonElement, downloadLinkContainer);
     }
-
-    // Function to handle congratulations link click
     function handleCongratulationsClick(downloadLinkContainer, fileUrl, fileName) {
         downloadFile(fileUrl, fileName);
     }
